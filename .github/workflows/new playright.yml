@@ -110,8 +110,8 @@ jobs:
 
           set +e
 
-           pytest tests/ \
-            -o addopts="" \
+           pytest tests/ test_check_rate.py
+           -o addopts="" \
             --browser chromium \
             -n 4 \
             --html=reports/report.html \
