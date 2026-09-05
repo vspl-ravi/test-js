@@ -110,7 +110,7 @@ jobs:
 
           set +e
 
-           pytest tests/test_check_rate.py \
+           pytest tests/ \
             -o addopts="" \
             --browser chromium \
             -n 4 \
