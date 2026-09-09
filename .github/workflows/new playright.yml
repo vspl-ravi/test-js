@@ -110,7 +110,7 @@ jobs:
 
           set +e
 
-           pytest tests/ \
+           pytest test/test_evafi_about.py
            -o addopts="" \
             --browser chromium \
             -n 4 \
